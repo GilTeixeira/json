@@ -1,0 +1,76 @@
+INFO: Scanner configuration file: /home/gildt/Downloads/sonar-scanner-4.4.0.2170-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.4.0.2170
+INFO: Java 11.0.3 AdoptOpenJDK (64-bit)
+INFO: Linux 5.8.0-7630-generic amd64
+INFO: User cache: /home/gildt/.sonar/cache
+INFO: Scanner configuration file: /home/gildt/Downloads/sonar-scanner-4.4.0.2170-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarQube server 7.9.5
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=38ms
+INFO: Server id: BF41A1F2-AXZO4-V6bfTp-rskGKue
+INFO: User cache: /home/gildt/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=23ms
+INFO: Load/download plugins (done) | time=50ms
+INFO: Process project properties
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=2ms
+INFO: Project key: nlohmann-json-multi
+INFO: Base dir: /home/gildt/Desktop/feup-diss-val/test/json/include/nlohmann
+INFO: Working dir: /home/gildt/Desktop/feup-diss-val/test/json/include/nlohmann/.scannerwork
+INFO: Load project settings for component key: 'nlohmann-json-multi'
+INFO: Load project settings for component key: 'nlohmann-json-multi' (done) | time=9ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=32ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=2521ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 38 files indexed
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for c++: Sonar way
+INFO: ------------- Run sensors on module nlohmann-json-multi
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=14ms
+INFO: Sensor C++ (Community) SquidSensor [cxx]
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=8ms
+WARN: Metric 'comment_lines_data' is deprecated. Provided value is ignored.
+WARN: No simple declaration found for declarator list at 172
+INFO: Sensor C++ (Community) SquidSensor [cxx] (done) | time=1554ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+INFO: Sensor JavaXmlSensor [java]
+INFO: Sensor JavaXmlSensor [java] (done) | time=0ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=6ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=15ms
+INFO: SCM provider for this project is: git
+INFO: 37 files to be analyzed
+INFO: 37/37 files analyzed
+INFO: 13 files had no CPD blocks
+INFO: Calculating CPD for 24 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 49ms, dir size=1 MB
+INFO: Analysis report compressed in 66ms, zip size=355 KB
+INFO: Analysis report uploaded in 101ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=nlohmann-json-multi
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AXZ8mwtkxEwJJTj0KWej
+INFO: Executing post-job 'Final report'
+WARN: Preprocessor: 261 include directive error(s). This is only relevant if parser creates syntax errors. The preprocessor searches for include files in the with 'sonar.cxx.includeDirectories' defined directories and order.
+WARN: Source code parser: 206 syntax error(s) detected. Syntax errors could cause invalid software metric values. Root cause are typically missing includes, missing macros or compiler specific extensions.
+INFO: Turn debug info on to get more details (sonar-scanner -X -Dsonar.verbose=true ...).
+INFO: Analysis total time: 7.762 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 8.327s
+INFO: Final Memory: 13M/54M
+INFO: ------------------------------------------------------------------------
